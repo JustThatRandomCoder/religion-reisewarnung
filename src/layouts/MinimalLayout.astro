@@ -712,7 +712,12 @@ const {
         document.documentElement.scrollHeight -
         document.documentElement.clientHeight;
       const scrolled = (winScroll / height) * 100;
-      document.querySelector(".scroll-progress").style.width = scrolled + "%";
+      const progressBar = document.querySelector(
+        ".scroll-progress",
+      ) as HTMLElement;
+      if (progressBar) {
+        progressBar.style.width = scrolled + "%";
+      }
     });
   </script>
 </html>
