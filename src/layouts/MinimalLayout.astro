@@ -12,6 +12,7 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <title>{title} | Auswärtiges Amt der Freien Republik Theologica</title>
+    <link rel="icon" type="image/png" href="/theologica_logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,6 +26,11 @@ const {
     <header class="page-header">
       <div class="header-content">
         <div class="header-left">
+          <img
+            src="/theologica_logo.png"
+            alt="Theologica Logo"
+            class="header-logo"
+          />
           <div class="ministry-badge">
             <div class="ministry-name">Auswärtiges Amt</div>
             <div class="country-name">Freie Republik Theologica</div>
@@ -33,6 +39,7 @@ const {
         <div class="header-center">
           <div class="page-category">Reise- und Sicherheitshinweise</div>
           <div class="location-name">Gotham City</div>
+          <div class="ministry-subtitle">Auswärtiges Amt Theologica</div>
         </div>
         <div class="header-right">
           <div class="status-badge danger">Reisewarnung</div>
@@ -61,15 +68,14 @@ const {
       <div class="footer-content">
         <div class="footer-grid">
           <div class="footer-col">
-            <h4>Auswärtiges Amt der Freien Republik Theologica</h4>
+            <h4>Auswärtiges Amt - Freie Republik Theologica</h4>
             <p>Fiktive Regierungsbehörde</p>
             <p>Reise- und Sicherheitshinweise</p>
-            <p>Konsularische Dienstleistungen</p>
           </div>
           <div class="footer-col">
             <h4>Projekt Information</h4>
             <p>Schulprojekt Religionsunterricht</p>
-            <p>Thema: Fiktive Staatsformen</p>
+            <p>Thema: Eine Stadt bauen</p>
             <p>Erstellt: Februar 2026</p>
             <p>Alle Angaben sind fiktiv</p>
           </div>
@@ -151,6 +157,14 @@ const {
     .header-left {
       display: flex;
       justify-content: flex-start;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .header-logo {
+      width: 60px;
+      height: 60px;
+      object-fit: contain;
     }
 
     .header-center {
@@ -200,6 +214,16 @@ const {
       font-weight: 800;
       color: #1a202c;
       letter-spacing: -0.02em;
+    }
+
+    .ministry-subtitle {
+      font-family: "Mulish", sans-serif;
+      font-size: 0.7rem;
+      color: #718096;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-top: 4px;
     }
 
     .status-badge {
@@ -415,6 +439,11 @@ const {
         gap: 16px;
       }
 
+      .header-logo {
+        width: 60px;
+        height: 60px;
+      }
+
       .footer-grid {
         grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
         gap: 32px;
@@ -435,16 +464,29 @@ const {
         padding: 0 16px;
         grid-template-columns: 1fr;
         gap: 12px;
-        text-align: center;
+        text-align: left;
+      }
+
+      .header-center {
+        text-align: left;
       }
 
       .header-left,
       .header-right {
-        justify-content: center;
+        justify-content: flex-start;
+      }
+
+      .header-logo {
+        width: 60px;
+        height: 60px;
+      }
+
+      .header-left {
+        gap: 8px;
       }
 
       .ministry-badge {
-        text-align: center;
+        text-align: left;
       }
 
       .ministry-name {
@@ -456,11 +498,16 @@ const {
       }
 
       .page-category {
+        margin-top: 1rem;
         font-size: 0.75rem;
       }
 
       .location-name {
         font-size: 1.4rem;
+      }
+
+      .ministry-subtitle {
+        font-size: 0.65rem;
       }
 
       .status-badge {
@@ -572,6 +619,10 @@ const {
 
       .location-name {
         font-size: 1.25rem;
+      }
+
+      .ministry-subtitle {
+        font-size: 0.6rem;
       }
 
       .status-badge {
