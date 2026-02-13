@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <!-- Outer circle - gold background -->
+    <circle cx="50" cy="50" r="45" fill="#FFD700" stroke="#004B87" stroke-width="2"/>
+    
+    <!-- Cross symbol -->
+    <path d="M40 25 L60 25 L60 40 L75 40 L75 60 L60 60 L60 75 L40 75 L40 60 L25 60 L25 40 L40 40 Z" 
+          fill="#004B87" stroke="#FFFFFF" stroke-width="1"/>
+    
+    <!-- Book/Bible symbol in the center -->
+    <rect x="42" y="45" width="16" height="10" fill="#FFFFFF" rx="1"/>
+    <line x1="44" y1="47" x2="56" y2="47" stroke="#004B87" stroke-width="0.5"/>
+    <line x1="44" y1="49" x2="56" y2="49" stroke="#004B87" stroke-width="0.5"/>
+    <line x1="44" y1="51" x2="56" y2="51" stroke="#004B87" stroke-width="0.5"/>
+    
+    <!-- State initials -->
+    <text x="50" y="85" text-anchor="middle" fill="#004B87" font-size="8" font-weight="bold" font-family="Arial, sans-serif">FRT</text>
+</svg>

@@ -1,0 +1,221 @@
+---
+const {
+  title,
+  description = "Offizielle Reise- und Sicherheitshinweise der Freien Republik Theologica",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} | Auswärtiges Amt der Freien Republik Theologica</title>
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <style>
+      :root {
+        --primary-blue: #004b87;
+        --secondary-blue: #0066cc;
+        --warning-red: #cc0000;
+        --warning-orange: #ff6600;
+        --text-dark: #333333;
+        --text-light: #666666;
+        --border-light: #e0e0e0;
+        --background-light: #f8f9fa;
+        --white: #ffffff;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          "Segoe UI",
+          -apple-system,
+          BlinkMacSystemFont,
+          sans-serif;
+        line-height: 1.6;
+        color: var(--text-dark);
+        background-color: var(--white);
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .header {
+        background-color: var(--primary-blue);
+        color: white;
+        padding: 1rem 0;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .header-content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .logo-section {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .logo {
+        width: 50px;
+        height: 50px;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%23FFD700'/%3E%3Cpath d='M30 40 L50 20 L70 40 Z' fill='%23004B87'/%3E%3Cpath d='M30 60 L50 40 L70 60 Z' fill='%23004B87'/%3E%3Ctext x='50' y='80' text-anchor='middle' fill='%23004B87' font-size='12' font-weight='bold'%3EFR%3C/text%3E%3C/svg%3E")
+          no-repeat center;
+        background-size: contain;
+      }
+
+      .site-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+      }
+
+      .site-subtitle {
+        font-size: 0.9rem;
+        opacity: 0.9;
+      }
+
+      .disclaimer {
+            background-color: #f9f9f9;
+            border: 1px solid #cccccc;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .disclaimer h3 {
+            color: #000000;
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .disclaimer p {
+            font-size: 0.9rem;
+            line-height: 1.4;
+            color: #333333;
+
+      .main-content {
+        padding: 2rem 0;
+        min-height: calc(100vh - 200px);
+      }
+
+      .page-title {
+        color: var(--primary-blue);
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 0.5rem;
+      }
+
+      .page-subtitle {
+        text-align: center;
+        color: var(--text-light);
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+      }
+
+      .footer {
+        background-color: var(--background-light);
+        border-top: 1px solid var(--border-light);
+        padding: 2rem 0;
+        margin-top: 3rem;
+      }
+
+      .footer-content {
+        text-align: center;
+        color: var(--text-light);
+      }
+
+      .footer p {
+        margin: 0.5rem 0;
+      }
+
+      .footer a {
+        color: var(--secondary-blue);
+        text-decoration: none;
+      }
+
+      .footer a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        .header-content {
+          flex-direction: column;
+          gap: 0.5rem;
+          text-align: center;
+        }
+
+        .page-title {
+          font-size: 2rem;
+        }
+
+        .container {
+          padding: 0 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo-section">
+            <div class="logo"></div>
+            <div>
+              <div class="site-title">Auswärtiges Amt</div>
+              <div class="site-subtitle">Freie Republik Theologica</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="disclaimer">
+          <h3>Hinweis zum Schulprojekt</h3>
+          <p>
+            Dies ist eine fiktive Website, die im Rahmen eines Schulprojekts im
+            Religionsunterricht erstellt wurde. Die "Freie Republik Theologica"
+            ist ein erfundener Staat und alle Reisehinweise beziehen sich auf
+            die fiktive Stadt "Gotham City". Alle Informationen dienen
+            ausschließlich Bildungszwecken.
+          </p>
+        </div>
+
+        <slot />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p><strong>Auswärtiges Amt der Freien Republik Theologica</strong></p>
+          <p>Schulprojekt | Religionsunterricht 2026</p>
+          <p>Erstellt als Lernprojekt - Alle Angaben sind fiktiv</p>
+          <p>
+            <a href="mailto:kontakt@example.edu">Impressum</a> | <a
+              href="#datenschutz">Datenschutz</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

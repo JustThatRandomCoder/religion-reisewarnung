@@ -1,0 +1,69 @@
+---
+const {
+  title,
+  description = "Offizielle Reise- und Sicherheitshinweise der Freien Republik Theologica",
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} | Auswärtiges Amt der Freien Republik Theologica</title>
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo-section">
+            <div class="logo"></div>
+            <div>
+              <div class="site-title">Auswärtiges Amt</div>
+              <div class="site-subtitle">Freie Republik Theologica</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <div class="container">
+        <div class="disclaimer">
+          <h3>Hinweis zum Schulprojekt</h3>
+          <p>
+            Dies ist eine fiktive Website, die im Rahmen eines Schulprojekts im
+            Religionsunterricht erstellt wurde. Die "Freie Republik Theologica"
+            ist ein erfundener Staat und alle Reisehinweise beziehen sich auf
+            die fiktive Stadt "Gotham City". Alle Informationen dienen
+            ausschließlich Bildungszwecken.
+          </p>
+        </div>
+
+        <slot />
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p><strong>Auswärtiges Amt der Freien Republik Theologica</strong></p>
+          <p>Schulprojekt | Religionsunterricht 2026</p>
+          <p>Erstellt als Lernprojekt - Alle Angaben sind fiktiv</p>
+          <p>
+            <a href="mailto:kontakt@example.edu">Impressum</a> | <a
+              href="#datenschutz">Datenschutz</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <style>
+    @import url("/src/styles/base.css");
+    @import url("/src/styles/layout.css");
+  </style>
+</html>
