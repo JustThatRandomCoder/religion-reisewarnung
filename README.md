@@ -41,27 +41,6 @@ Dies ist ein **fiktives Schulprojekt** für den Religionsunterricht, das eine pr
 - 💻 **Technische Kompetenz**: Erstellung einer professionellen Website mit modernen Web-Technologien
 - 📺 **Kritische Medienanalyse**: Verstehen offizieller Kommunikationsformen und deren Wirkung
 
-## 📸 Screenshots
-
-<div align="center">
-
-### Desktop Version
-
-![Desktop Screenshot](public/theologica_logo.png)
-_Hauptseite mit vollständiger Headerleiste und Navigation_
-
-### Mobile Version
-
-![Mobile Screenshot](public/theologica_logo.png)
-_Responsive Design für Mobilgeräte_
-
-### Sicherheitshinweise
-
-![Security Warnings](public/theologica_logo.png)
-_Detaillierte Reisewarnungen und Sicherheitsinformationen_
-
-</div>
-
 ### 🏛️ Fiktiver Staat: Freie Republik Theologica
 
 **Staatsname**: Freie Republik Theologica (FRT)  
