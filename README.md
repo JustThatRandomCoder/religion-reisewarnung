@@ -1,19 +1,66 @@
-# 📖 Reise- und Sicherheitshinweise für Gotham City
+# 🏛️ Auswärtiges Amt - Freie Republik Theologica
 
-## Schulprojekt Religionsunterricht 2026
+<div align="center">
 
-![Auswärtiges Amt der Freien Republik Theologica](public/logo.svg)
+![Theologica Logo](public/theologica_logo.png)
+
+**Reise- und Sicherheitshinweise für Gotham City**
+
+[![Astro](https://img.shields.io/badge/Astro-4.0-FF5D01?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+_Schulprojekt Religionsunterricht • Februar 2026_
+
+[🚀 Live Demo](#) • [📖 Dokumentation](#projektbeschreibung) • [💻 Installation](#-installation--entwicklung)
+
+</div>
+
+---
 
 ### 🎓 Projektbeschreibung
 
-Dies ist ein **fiktives Schulprojekt** für den Religionsunterricht, das eine professionelle Website im Stil des deutschen Auswärtigen Amts nachstellt. Das Projekt demonstriert die Auseinandersetzung mit ethischen Fragen zu Sicherheit, staatlicher Verantwortung und gesellschaftlichen Herausforderungen anhand der fiktiven Stadt "Gotham City".
+> 🎯 **Mission**: Eine authentische Nachstellung des deutschen Auswärtigen Amts zur ethischen Reflexion über staatliche Verantwortung, Bürgerschutz und gesellschaftliche Herausforderungen.
+
+Dies ist ein **fiktives Schulprojekt** für den Religionsunterricht, das eine professionelle Website im Stil des deutschen Auswärtigen Amts nachstellt. Das Projekt demonstriert die Auseinandersetzung mit ethischen Fragen anhand der fiktiven Stadt "Gotham City".
+
+### ✨ Features
+
+- 🎨 **Authentic Design**: Pixel-genaue Nachstellung des AA-Designs
+- 📱 **Responsive Layout**: Optimiert für alle Bildschirmgrößen
+- ⚡ **Modern Tech Stack**: Astro + TypeScript + Vanilla CSS
+- 🔒 **Security Warnings**: Realistische Reisewarnungen und Sicherheitshinweise
+- 🌐 **Multi-Section Layout**: Strukturierte Informationsdarstellung
+- 📊 **Government Branding**: Vollständiges Corporate Design der FRT
+- 🚀 **Performance**: Optimiert für schnelle Ladezeiten
 
 ### 🌟 Lernziele
 
-- **Ethische Reflexion**: Diskussion über staatliche Verantwortung und Bürgerschutz
-- **Gesellschaftliche Analyse**: Untersuchung von Sicherheit, Korruption und gesellschaftlichen Strukturen
-- **Technische Kompetenz**: Erstellung einer professionellen Website mit modernen Web-Technologien
-- **Kritische Medienanalyse**: Verstehen offizieller Kommunikationsformen und deren Wirkung
+- 🧠 **Ethische Reflexion**: Diskussion über staatliche Verantwortung und Bürgerschutz
+- 🏛️ **Gesellschaftliche Analyse**: Untersuchung von Sicherheit, Korruption und gesellschaftlichen Strukturen
+- 💻 **Technische Kompetenz**: Erstellung einer professionellen Website mit modernen Web-Technologien
+- 📺 **Kritische Medienanalyse**: Verstehen offizieller Kommunikationsformen und deren Wirkung
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Desktop Version
+
+![Desktop Screenshot](public/theologica_logo.png)
+_Hauptseite mit vollständiger Headerleiste und Navigation_
+
+### Mobile Version
+
+![Mobile Screenshot](public/theologica_logo.png)
+_Responsive Design für Mobilgeräte_
+
+### Sicherheitshinweise
+
+![Security Warnings](public/theologica_logo.png)
+_Detaillierte Reisewarnungen und Sicherheitsinformationen_
+
+</div>
 
 ### 🏛️ Fiktiver Staat: Freie Republik Theologica
 
@@ -40,29 +87,63 @@ Dieses Projekt entstand im Rahmen einer Unterrichtsreihe über:
 
 ### 🛠️ Technische Umsetzung
 
-#### Verwendete Technologien
+<div align="center">
 
-- **Framework**: [Astro](https://astro.build/) - Moderne Web-Framework
-- **Styling**: Vanilla CSS mit CSS Custom Properties
-- **Struktur**: Component-basierte Architektur
-- **Design**: Nachstellung des offiziellen AA-Designs
+![Astro](https://img.shields.io/badge/Framework-Astro_4.0-FF5D01?style=flat-square&logo=astro)
+![TypeScript](https://img.shields.io/badge/Language-TypeScript-3178C6?style=flat-square&logo=typescript)
+![CSS3](https://img.shields.io/badge/Styling-Vanilla_CSS-1572B6?style=flat-square&logo=css3)
+![Responsive](https://img.shields.io/badge/Design-Responsive-green?style=flat-square)
+![Performance](https://img.shields.io/badge/Performance-Optimized-brightgreen?style=flat-square)
 
-#### Projektstruktur
+</div>
+
+#### 🔧 Tech Stack
+
+| Technologie    | Version | Zweck                             |
+| -------------- | ------- | --------------------------------- |
+| **Astro**      | 4.0+    | Static Site Generator & Framework |
+| **TypeScript** | 5.0+    | Type-sichere Entwicklung          |
+| **CSS3**       | -       | Responsive Design & Animations    |
+| **HTML5**      | -       | Semantische Struktur              |
+
+#### ⚡ Performance Features
+
+- 🚀 **Static Generation**: Pre-rendered HTML für maximale Performance
+- 📦 **Component Islands**: Minimaler JavaScript-Bundle
+- 🎨 **CSS Optimization**: Vanilla CSS ohne Framework-Overhead
+- 📱 **Mobile First**: Responsive Design von Grund auf
+- 🔍 **SEO Optimized**: Meta-Tags und strukturierte Daten
+
+#### 📁 Projektstruktur
 
 ```
 religion-reisewarnung/
-├── public/
-│   └── logo.svg                 # Staatswappen FRT
-├── src/
-│   ├── components/
-│   │   ├── AlertBox.astro       # Warnsystem-Komponente
-│   │   └── ContentSection.astro # Inhalts-Sektionen
-│   ├── layouts/
-│   │   └── BaseLayout.astro     # Haupt-Layout im AA-Stil
-│   └── pages/
-│       └── index.astro          # Hauptseite mit allen Sektionen
-├── package.json
-└── README.md
+├── 📁 public/
+│   ├── 🖼️ theologica_logo.png      # Staatswappen FRT
+│   └── 📄 favicon.ico
+├── 📁 src/
+│   ├── 🧩 components/
+│   │   ├── 🚨 AlertBox.astro         # Warnsystem-Komponenten
+│   │   ├── 📄 ContentSection.astro   # Inhalts-Sektionen
+│   │   ├── 🔧 PageHeader.astro       # Page Header Component
+│   │   └── 📁 sections/              # Spezifische Sektionen
+│   │       ├── 🏛️ PoliticalSituation.astro
+│   │       ├── 🔒 SecurityWarning.astro
+│   │       ├── ⚖️ LegalSection.astro
+│   │       └── 💊 HealthSection.astro
+│   ├── 🎨 layouts/
+│   │   ├── 📐 BaseLayout.astro       # Haupt-Layout im AA-Stil
+│   │   ├── 📱 MinimalLayout.astro    # Minimales Layout
+│   │   └── 🆕 NewBaseLayout.astro    # Erweiterte Layout-Version
+│   ├── 📄 pages/
+│   │   └── 🏠 index.astro            # Hauptseite mit allen Sektionen
+│   └── 🎨 styles/
+│       ├── 🎯 base.css               # Basis-Styles
+│       └── 📐 layout.css             # Layout-spezifische Styles
+├── ⚙️ astro.config.mjs               # Astro-Konfiguration
+├── 📦 package.json                   # Dependencies & Scripts
+├── 🔧 tsconfig.json                  # TypeScript-Konfiguration
+└── 📖 README.md                      # Diese Datei
 ```
 
 #### Komponenten-Architektur
@@ -89,45 +170,64 @@ religion-reisewarnung/
 
 ### 🚀 Installation & Entwicklung
 
-#### Setup
+#### 📋 Voraussetzungen
+
+- **Node.js** >= 18.0.0
+- **npm** >= 9.0.0 oder **yarn** >= 1.22.0
+- **Git** für Versionskontrolle
+
+#### ⚡ Quick Start
 
 ```bash
-# Dependencies installieren
+# 1. Repository klonen
+git clone https://github.com/justthatrandomcoder/religion-reisewarnung.git
+cd religion-reisewarnung
+
+# 2. Dependencies installieren
 npm install
 
-# Entwicklungsserver starten
-npm run dev
-
-# Produktions-Build
-npm run build
-
-# Preview der Produktion
-npm run preview
-```
-
-#### Lokale Entwicklung
-
-```bash
-# Terminal öffnen und navigieren
-cd /Users/juliusgrimm/Desktop/GitHub/religion-reisewarnung
-
-# Projekt starten
+# 3. Entwicklungsserver starten
 npm run dev
 ```
 
-Die Website ist dann erreichbar unter: `http://localhost:4321`
+🌐 **Die Website ist dann erreichbar unter**: [`http://localhost:4321`](http://localhost:4321)
 
-### 🎭 Disclaimer & Bildungshinweis
+#### 🛠️ Verfügbare Scripts
+
+| Script         | Befehl               | Beschreibung                                  |
+| -------------- | -------------------- | --------------------------------------------- |
+| **Dev Server** | `npm run dev`        | Startet den Development Server mit Hot Reload |
+| **Build**      | `npm run build`      | Erstellt optimierten Production Build         |
+| **Preview**    | `npm run preview`    | Preview des Production Builds lokal           |
+| **Lint**       | `npm run lint`       | Code Quality Check                            |
+| **Type Check** | `npm run type-check` | TypeScript Typprüfung                         |
+
+#### 📁 Projektstruktur
+
+## 🎭 Disclaimer & Bildungshinweis
+
+<div align="center">
 
 > ⚠️ **WICHTIGER HINWEIS**
 >
 > Diese Website ist ein **fiktives Schulprojekt** für den Religionsunterricht.
->
-> - Die **"Freie Republik Theologica"** ist ein erfundener Staat
-> - Alle **Reisehinweise beziehen sich auf die fiktive "Gotham City"**
-> - **Batman, Joker, Wayne Enterprises** etc. sind fiktive Urheberrechte von DC Comics
-> - Alle Informationen dienen **ausschließlich Bildungszwecken**
-> - Keine reale Reiseempfehlung oder offizielle Kommunikation
+
+</div>
+
+### 🚫 Fiktive Inhalte
+
+- 🏛️ Die **"Freie Republik Theologica"** ist ein erfundener Staat
+- 🦇 Alle **Reisehinweise beziehen sich auf die fiktive "Gotham City"**
+- 🃏 **Batman, Joker, Wayne Enterprises** etc. sind Urheberrechte von DC Comics
+- 📚 Alle Informationen dienen **ausschließlich Bildungszwecken**
+- 🚫 Keine reale Reiseempfehlung oder offizielle Kommunikation
+
+### 🎓 Bildungskontext
+
+- 📖 **Fach**: Religionsunterricht
+- 🏫 **Thema**: Ethik, Staatsverantwortung & gesellschaftliche Werte
+- 🎯 **Ziel**: Reflexion über Sicherheit, Moral und staatliches Handeln
+- 💡 **Methode**: Praktische Umsetzung durch Web-Development
 
 ### 🤝 Credits & Inspiration
 
@@ -145,6 +245,39 @@ Die Website ist dann erreichbar unter: `http://localhost:4321`
 
 ---
 
-**Auswärtiges Amt der Freien Republik Theologica**  
+<div align="center">
+
+## 📧 Kontakt & Credits
+
+**👨‍💻 Entwickelt von**: Julius Grimm  
+**📅 Erstellt**: Februar 2026  
+**🎓 Kontext**: Schulprojekt Religionsunterricht
+
+### 💡 Inspiration & Credits
+
+| Element          | Quelle                                             |
+| ---------------- | -------------------------------------------------- |
+| 🎨 **Design**    | Deutsches Auswärtiges Amt ([aa.de](https://aa.de)) |
+| 🦇 **Kontext**   | DC Comics Gotham City Universum                    |
+| ⚡ **Framework** | [Astro.js Community](https://astro.build)          |
+| 🎓 **Bildung**   | Religionsunterricht Deutschland                    |
+
+### 🌟 Danksagungen
+
+- 🙏 **Lehrkraft** für die kreative Projektidee
+- 💻 **Open Source Community** für die verwendeten Tools
+- 🎨 **Webdesign-Community** für Inspiration und Best Practices
+
+---
+
+![Theologica Logo](public/theologica_logo.png)
+
+**🏛️ Auswärtiges Amt der Freien Republik Theologica**  
 _Bildungsprojekt | Religionsunterricht 2026_  
 _Alle Angaben sind fiktiv und dienen ausschließlich Lernzwecken_
+
+📍 **Status**: Aktives Lernprojekt  
+🔄 **Updates**: Nach Bedarf  
+📖 **Lizenz**: Nur für Bildungszwecke
+
+</div>
