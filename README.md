@@ -18,28 +18,56 @@ _Schulprojekt Religionsunterricht • Februar 2026_
 
 ---
 
-### 🎓 Projektbeschreibung
+## ⚡ Live Demo
 
-> 🎯 **Mission**: Eine authentische Nachstellung des deutschen Auswärtigen Amts zur ethischen Reflexion über staatliche Verantwortung, Bürgerschutz und gesellschaftliche Herausforderungen.
+🌐 **Die Website ist jetzt live erreichbar unter**: [`https://gc.x0000.de`](https://gc.x0000.de)
 
-Dies ist ein **fiktives Schulprojekt** für den Religionsunterricht, das eine professionelle Website im Stil des deutschen Auswärtigen Amts nachstellt. Das Projekt demonstriert die Auseinandersetzung mit ethischen Fragen anhand der fiktiven Stadt "Gotham City".
+> 🚀 **Direkt ausprobieren**: Keine Installation nötig - einfach den Link anklicken und die Reisehinweise für Gotham City erkunden!
 
-### ✨ Features
+---
 
-- 🎨 **Authentic Design**: Pixel-genaue Nachstellung des AA-Designs
-- 📱 **Responsive Layout**: Optimiert für alle Bildschirmgrößen
-- ⚡ **Modern Tech Stack**: Astro + TypeScript + Vanilla CSS
-- 🔒 **Security Warnings**: Realistische Reisewarnungen und Sicherheitshinweise
-- 🌐 **Multi-Section Layout**: Strukturierte Informationsdarstellung
-- 📊 **Government Branding**: Vollständiges Corporate Design der FRT
-- 🚀 **Performance**: Optimiert für schnelle Ladezeiten
+## 🎭 Disclaimer & Bildungshinweis
 
-### 🌟 Lernziele
+<div align="center">
 
-- 🧠 **Ethische Reflexion**: Diskussion über staatliche Verantwortung und Bürgerschutz
-- 🏛️ **Gesellschaftliche Analyse**: Untersuchung von Sicherheit, Korruption und gesellschaftlichen Strukturen
-- 💻 **Technische Kompetenz**: Erstellung einer professionellen Website mit modernen Web-Technologien
-- 📺 **Kritische Medienanalyse**: Verstehen offizieller Kommunikationsformen und deren Wirkung
+> ⚠️ **WICHTIGER HINWEIS**
+>
+> Diese Website ist ein **fiktives Schulprojekt** für den Religionsunterricht.
+
+</div>
+
+### 🚫 Fiktive Inhalte
+
+| Element                          | Status        | Beschreibung                          |
+| -------------------------------- | ------------- | ------------------------------------- |
+| 🏛️ **Freie Republik Theologica** | Erfunden      | Fiktiver Staat für Bildungszwecke     |
+| 🦇 **Gotham City**               | DC Comics     | Fiktive Stadt aus Batman-Universum    |
+| 🃏 **DC Characters**             | Urheberrecht  | Batman, Joker, Wayne Enterprises etc. |
+| 📚 **Informationen**             | Bildungszweck | Ausschließlich für Lernzwecke         |
+| 🚫 **Offizieller Status**        | Nicht real    | Keine echte Reiseempfehlung           |
+
+### 🎓 Bildungskontext
+
+| Kategorie       | Details                                                                        |
+| --------------- | ------------------------------------------------------------------------------ |
+| 📖 **Fach**     | Religionsunterricht                                                            |
+| 🏫 **Thema**    | Eine Stadt Bauen                                                               |
+| 🏫 **Schule**   | Uhland-Gymnasium Tübingen                                                      |
+| 🎯 **Ziel**     | Erstellen einer Reiseempfehlung eines auswärtigen Amts zu einer fiktiven Stadt |
+| 💡 **Methode**  | Praktische Umsetzung durch Web-Development                                     |
+| 📅 **Zeitraum** | Februar 2026                                                                   |
+
+---
+
+## 🎓 Projektbeschreibung
+
+> 🎯 **Mission**: Eine authentische Nachstellung einer Reiseempfehlung des Auswärtigen Amts eines Staates, zu der fiktiven Stadt Gotham City aus den US-Amerikanischen DC Comics, als Teil des Themas "Eine Stadt Bauen".
+
+Dies ist ein **fiktives Schulprojekt** für den Religionsunterricht, das eine professionelle Website im Stil dines Auswärtigen Amts nachstellt. Das Projekt demonstriert die Auseinandersetzung mit ethischen Fragen anhand der fiktiven Stadt "Gotham City".
+
+### 🎯 Projektkontext
+
+Dieses Projekt entstand im Rahmen einer Unterrichtseinheit im Religionsunterricht am Uhland-Gymnasium Tübingen. Alle Angaben über die Freie Republik Theologica sind Fiktiv und dienen nur zu Bildungszwecken.
 
 ### 🏛️ Fiktiver Staat: Freie Republik Theologica
 
@@ -54,15 +82,6 @@ Dies ist ein **fiktives Schulprojekt** für den Religionsunterricht, das eine pr
 - **Farben**: Blau (Weisheit), Gold (Göttlichkeit), Weiß (Reinheit)
 - **Wappen**: Goldener Kreis mit blauem Kreuz und Buch (Wissen/Glaube)
 - **Initialen**: FRT (Freie Republik Theologica)
-
-### 🎯 Projektkontext
-
-Dieses Projekt entstand im Rahmen einer Unterrichtsreihe über:
-
-- **Staatliche Verantwortung** und Bürgerschutz
-- **Ethische Dilemmata** in der öffentlichen Sicherheit
-- **Mediale Darstellung** von Krisengebieten
-- **Religion und Staat**: Werte in der Politik
 
 ### 🛠️ Technische Umsetzung
 
@@ -129,7 +148,7 @@ religion-reisewarnung/
 
 **BaseLayout.astro**
 
-- Hauptlayout im Stil des deutschen Auswärtigen Amts
+- Daratellung einer Reiseempfehlung eines fiktiven auswärtigen Amts
 - Responsive Design
 - Staatliches Branding der FRT
 - Disclaimer für Bildungszwecke
@@ -147,15 +166,19 @@ religion-reisewarnung/
 - Verschiedene Varianten: warning, info, neutral
 - Responsive Gestaltung
 
-### 🚀 Installation & Entwicklung
+---
 
-#### 📋 Voraussetzungen
+## 🚀 Installation
+
+### 📋 Voraussetzungen
 
 - **Node.js** >= 18.0.0
 - **npm** >= 9.0.0 oder **yarn** >= 1.22.0
 - **Git** für Versionskontrolle
 
-#### ⚡ Quick Start
+### 💻 Installation
+
+Falls du das Projekt lokal ausführen möchtest:
 
 ```bash
 # 1. Repository klonen
@@ -169,9 +192,9 @@ npm install
 npm run dev
 ```
 
-🌐 **Die Website ist dann erreichbar unter**: [`http://localhost:4321`](http://localhost:4321)
+📍 **Lokal dann erreichbar unter**: [`http://localhost:4321`](http://localhost:4321)
 
-#### 🛠️ Verfügbare Scripts
+### 🛠️ Verfügbare Scripts
 
 | Script         | Befehl               | Beschreibung                                  |
 | -------------- | -------------------- | --------------------------------------------- |
@@ -181,71 +204,66 @@ npm run dev
 | **Lint**       | `npm run lint`       | Code Quality Check                            |
 | **Type Check** | `npm run type-check` | TypeScript Typprüfung                         |
 
-#### 📁 Projektstruktur
-
-## 🎭 Disclaimer & Bildungshinweis
-
-<div align="center">
-
-> ⚠️ **WICHTIGER HINWEIS**
->
-> Diese Website ist ein **fiktives Schulprojekt** für den Religionsunterricht.
-
-</div>
-
-### 🚫 Fiktive Inhalte
-
-- 🏛️ Die **"Freie Republik Theologica"** ist ein erfundener Staat
-- 🦇 Alle **Reisehinweise beziehen sich auf die fiktive "Gotham City"**
-- 🃏 **Batman, Joker, Wayne Enterprises** etc. sind Urheberrechte von DC Comics
-- 📚 Alle Informationen dienen **ausschließlich Bildungszwecken**
-- 🚫 Keine reale Reiseempfehlung oder offizielle Kommunikation
-
-### 🎓 Bildungskontext
-
-- 📖 **Fach**: Religionsunterricht
-- 🏫 **Thema**: Ethik, Staatsverantwortung & gesellschaftliche Werte
-- 🎯 **Ziel**: Reflexion über Sicherheit, Moral und staatliches Handeln
-- 💡 **Methode**: Praktische Umsetzung durch Web-Development
-
 ### 🤝 Credits & Inspiration
 
-- **Design-Inspiration**: Deutsches Auswärtiges Amt (aa.de)
-- **Fiktiver Kontext**: DC Comics Gotham City Universum
-- **Technologie**: Astro Framework Community
-- **Bildungskontext**: Religionsunterricht Deutschland
+| Bereich                | Quelle           | Link/Details                       |
+| ---------------------- | ---------------- | ---------------------------------- |
+| 🦇 **Kontext**         | DC Comics        | Gotham City Universum              |
+| ⚡ **Framework**       | Astro Community  | [astro.build](https://astro.build) |
+| 🏫 **Bildungskontext** | Uhland-Gymnasium | Tübingen, Deutschland              |
 
 ### 📧 Projektinformation
 
-- **Erstellt**: Februar 2026
-- **Kontext**: Schulprojekt Religionsunterricht
-- **Zweck**: Bildung, Reflexion gesellschaftlicher Werte
-- **Framework**: Astro.js mit modernen Web-Standards
+| Info              | Wert                                        |
+| ----------------- | ------------------------------------------- |
+| 👨‍💻 **Entwickler** | Julius Grimm                                |
+| 📅 **Erstellt**   | Februar 2026                                |
+| 🎓 **Kontext**    | Schulprojekt Religionsunterricht            |
+| 🎯 **Zweck**      | Bildung, Reflexion gesellschaftlicher Werte |
+| ⚡ **Framework**  | Astro.js mit modernen Web-Standards         |
+| 🌐 **Live Demo**  | [gc.x0000.de](https://gc.x0000.de)          |
+
+---
+
+## ⚖️ Copyright & Lizenz
+
+<div align="center">
+
+> 📝 **Copyright Notice**
+>
+> © 2026 Julius Grimm. Alle Rechte vorbehalten.
+
+</div>
+
+### 🚫 Nutzungsrechte
+
+| Berechtigung                | Status      | Details                            |
+| --------------------------- | ----------- | ---------------------------------- |
+| 📖 **Bildungszweck**        | ✅ Erlaubt  | Nur zur Ansicht und zum Lernen     |
+| 💻 **Code-Verwendung**      | ❌ Verboten | Keine Weiterverwendung des Codes   |
+| 🔄 **Weiterentwicklung**    | ❌ Verboten | Nur durch Julius Grimm autorisiert |
+| 📋 **Kopieren/Forken**      | ❌ Verboten | Keine Kopien oder Forks erlaubt    |
+| 🏢 **Kommerzielle Nutzung** | ❌ Verboten | Nicht für kommerzielle Zwecke      |
+
+### ⚠️ Rechtlicher Hinweis
+
+- **Eigentum**: Dieser Code ist ausschließliches Eigentum von Julius Grimm
+- **Entwicklung**: Nur der Autor ist berechtigt, den Code zu entwickeln oder zu modifizieren
+- **Verwendung**: Der Code darf nicht für andere Projekte verwendet werden
+- **Bildungszweck**: Erlaubt ist nur die Betrachtung zu Lern- und Bildungszwecken
+- **Kontakt**: Bei Fragen zu Nutzungsrechten: [me@juliusgrimm.dev](mailto:me@juliusgrimm.dev)
 
 ---
 
 <div align="center">
 
-## 📧 Kontakt & Credits
+## 💻 Project Developer
 
-**👨‍💻 Entwickelt von**: Julius Grimm  
-**📅 Erstellt**: Februar 2026  
-**🎓 Kontext**: Schulprojekt Religionsunterricht
+**Julius Grimm** - Full-Stack Developer & UI / UX Designer
 
-### 💡 Inspiration & Credits
-
-| Element          | Quelle                                             |
-| ---------------- | -------------------------------------------------- |
-| 🎨 **Design**    | Deutsches Auswärtiges Amt ([aa.de](https://aa.de)) |
-| 🦇 **Kontext**   | DC Comics Gotham City Universum                    |
-| ⚡ **Framework** | [Astro.js Community](https://astro.build)          |
-| 🎓 **Bildung**   | Religionsunterricht Deutschland                    |
-
-### 🌟 Danksagungen
-
-- 🙏 **Lehrkraft** für die kreative Projektidee
-- 💻 **Open Source Community** für die verwendeten Tools
-- 🎨 **Webdesign-Community** für Inspiration und Best Practices
+[![Website](https://img.shields.io/badge/🌐_Portfolio-juliusgrimm.dev-4285f4?style=for-the-badge)](https://juliusgrimm.dev)
+[![Email](https://img.shields.io/badge/📧_Contact-me@juliusgrimm.dev-ea4335?style=for-the-badge)](mailto:me@juliusgrimm.dev)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-@justthatrandomcoder-333?style=for-the-badge&logo=github)](https://github.com/justthatrandomcoder)
 
 ---
 
@@ -257,6 +275,7 @@ _Alle Angaben sind fiktiv und dienen ausschließlich Lernzwecken_
 
 📍 **Status**: Aktives Lernprojekt  
 🔄 **Updates**: Nach Bedarf  
-📖 **Lizenz**: Nur für Bildungszwecke
+⚖️ **Copyright**: © 2026 Julius Grimm - Alle Rechte vorbehalten  
+📖 **Lizenz**: Nur zur Bildungsansicht - Code nicht zur Weiterverwendung
 
 </div>
